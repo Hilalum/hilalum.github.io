@@ -28,6 +28,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
@@ -49,3 +57,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          publish_dir: ./_site
