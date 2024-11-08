@@ -1,0 +1,7 @@
+# _config.yml
+title: "Hilalum's blog"
+email: "dcyap0@icloud.com"
+description: ""
+baseurl: "" 
+url: "https://hilalum.github.io"
+theme: "minima"  # 使用 Jekyll 的默认主题
