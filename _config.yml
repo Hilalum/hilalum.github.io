@@ -4,7 +4,7 @@ email: "dcyap0@icloud.com"
 description: ""
 baseurl: "" 
 url: "https://hilalum.github.io"
-theme: "minima"  # 使用 Jekyll 的默认主题
+theme: "jekyll-theme-clean-blog"  # 使用 Jekyll 的默认主题
 destination: ./docs
 collections:
   posts:
