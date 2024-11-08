@@ -14,5 +14,7 @@ title: "首页"
       <p>{{ post.excerpt }}</p>
       <a href="{{ post.url }}">阅读全文</a>
     </article>
+  {% else %}
+    <p>没有找到文章。</p>
   {% endfor %}
 </div>
