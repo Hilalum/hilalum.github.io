@@ -34,21 +34,21 @@ summary: "这篇文章回顾了我和伴侣的西安出发的新婚旅行，涵�
 ## 大阪
 ### 第一顿饭
 我们住的是中之岛微笑酒店，离心斋桥，梅田，环球影城都不远。这是我们在酒店下的第一顿饭，日本好多点餐机在门口，点餐后出票去里面就餐。
-<img class="img-fluid" src="/assets/点餐机.jpeg" alt="点餐机">
+<img class="img-fluid" src="/assets/大阪/点餐机.jpeg" alt="点餐机">
 面还蛮好吃的。
-<img class="img-fluid" src="/assets/第一碗饭.jpeg" alt="第一碗饭">
+<img class="img-fluid" src="/assets/大阪/第一碗饭.jpeg" alt="第一碗饭">
 酒店附近的风光，中之岛算是大阪比较多精致建筑的区域了。
-<img class="img-fluid" src="/assets/酒店楼下.jpeg" alt="酒店楼下">
-<img class="img-fluid" src="/assets/酒店楼下2.jpeg" alt="酒店楼下2">
-<img class="img-fluid" src="/assets/酒店楼下3.jpeg" alt="酒店楼下3">
-<img class="img-fluid" src="/assets/夕阳.jpeg" alt="夕阳">
+<img class="img-fluid" src="/assets/大阪/酒店楼下.jpeg" alt="酒店楼下">
+<img class="img-fluid" src="/assets/大阪/酒店楼下2.jpeg" alt="酒店楼下2">
+<img class="img-fluid" src="/assets/大阪/酒店楼下3.jpeg" alt="酒店楼下3">
+<img class="img-fluid" src="/assets/大阪/夕阳.jpeg" alt="夕阳">
 中之岛上有好多公共建筑，酒店旁边就是著名的“大黑盒子”-中之岛美术馆。我们也在网站上预约了最近举办的TRIO 巴黎、东京、大阪 现代艺术藏品展。
-<img class="img-fluid" src="/assets/画展.jpeg" alt="画展">
+<img class="img-fluid" src="/assets/大阪/画展.jpeg" alt="画展">
 心斋桥当然得去啦。
-<img class="img-fluid" src="/assets/夜心斋桥.jpeg" alt="夜心斋桥">
-<img class="img-fluid" src="/assets/南波.jpeg" alt="南波">
+<img class="img-fluid" src="/assets/大阪/夜心斋桥.jpeg" alt="夜心斋桥">
+<img class="img-fluid" src="/assets/大阪/南波.jpeg" alt="南波">
 在心斋桥遇到了一场轻微交通事故。日本警察还是挺敬业的，绿灯时上前用尺子测量。
-<img class="img-fluid" src="/assets/交通事故.jpeg" alt="交通事故">
+<img class="img-fluid" src="/assets/大阪/交通事故.jpeg" alt="交通事故">
 也去了环球影城，坐了哈利波特，飞天翼龙。
-<img class="img-fluid" src="/assets/环球影城.jpeg" alt="环球影城">
-<img class="img-fluid" src="/assets/任天堂.jpeg" alt="任天堂">
+<img class="img-fluid" src="/assets/大阪/环球影城.jpeg" alt="环球影城">
+<img class="img-fluid" src="/assets/大阪/任天堂.jpeg" alt="任天堂">
