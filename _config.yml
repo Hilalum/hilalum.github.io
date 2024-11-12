@@ -6,6 +6,7 @@ description: ""
 baseurl: ""
 url: "https://hilalum.github.io"
 destination: ./_site
+encoding: UTF-8
 collections:
   posts:
     output: true
