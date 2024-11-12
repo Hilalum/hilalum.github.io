@@ -27,29 +27,28 @@ summary: "这篇文章回顾了我和伴侣的西安出发的新婚旅行，涵�
 ## 到达
 
 <img class="img-fluid" src="/assets/%E5%A4%A7%E9%98%AA/%E5%A4%A7%E9%98%AA%E5%85%B3%E8%A5%BF%E6%9C%BA%E5%9C%BA.jpeg" alt="关西机场">
-![关西机场](/assets/%E5%A4%A7%E9%98%AA/%E5%A4%A7%E9%98%AA%E5%85%B3%E8%A5%BF%E6%9C%BA%E5%9C%BA.jpeg)
 大阪机场在海上，落地后直接有点懵圈。这种感觉起源于对谷歌导航的陌生，特别是公交导航。但是用习惯了会觉得很好用，一切都很准确。由于日本交通线路复杂，文字陌生，我觉得最好在国内先尝试导航一次，熟悉一下UI。  
-![关西机场走廊](/assets/%E5%A4%A7%E9%98%AA/%E6%9C%BA%E5%9C%BA%E8%B5%B0%E5%BB%8A.jpeg)
+<img class="img-fluid" src="/assets/%E5%A4%A7%E9%98%AA/%E6%9C%BA%E5%9C%BA%E8%B5%B0%E5%BB%8A.jpeg" alt="关西机场走廊">
 我们跟着人流坐上了机场免费摆渡车，从T2到达T1车站，机场是火车线路的起点站，所以从正确方向的一边上车就行。记得提前添加好西瓜卡，多充值些钱，我们充了8000日元，后面不够又充了2000。
 
 ## 大阪
 ### 第一顿饭
 我们住的是中之岛微笑酒店，离心斋桥，梅田，环球影城都不远。这是我们在酒店下的第一顿饭，日本好多点餐机在门口，点餐后出票去里面就餐。
-![点餐机](/assets/大阪/点餐机.jpeg)
+<img class="img-fluid" src="/assets/点餐机.jpeg" alt="点餐机">
 面还蛮好吃的。
-![面](/assets/大阪/第一碗饭.jpeg)
+<img class="img-fluid" src="/assets/第一碗饭.jpeg" alt="第一碗饭">
 酒店附近的风光，中之岛算是大阪比较多精致建筑的区域了。
-![风光](/assets/大阪/酒店楼下.jpeg)
-![风光1](/assets/大阪/酒店楼下2.jpeg)
-![风光2](/assets/大阪/酒店楼下3.jpeg)
-![风光3](/assets/大阪/夕阳.jpeg)
+<img class="img-fluid" src="/assets/酒店楼下.jpeg" alt="酒店楼下">
+<img class="img-fluid" src="/assets/酒店楼下2.jpeg" alt="酒店楼下2">
+<img class="img-fluid" src="/assets/酒店楼下3.jpeg" alt="酒店楼下3">
+<img class="img-fluid" src="/assets/夕阳.jpeg" alt="夕阳">
 中之岛上有好多公共建筑，酒店旁边就是著名的“大黑盒子”-中之岛美术馆。我们也在网站上预约了最近举办的TRIO 巴黎、东京、大阪 现代艺术藏品展。
-![画展](/assets/大阪/画展.jpeg)
+<img class="img-fluid" src="/assets/画展.jpeg" alt="画展">
 心斋桥当然得去啦。
-![心斋桥](/assets/大阪/夜心斋桥.jpeg)
-![南波](/assets/大阪/南波.jpeg)
+<img class="img-fluid" src="/assets/夜心斋桥.jpeg" alt="夜心斋桥">
+<img class="img-fluid" src="/assets/南波.jpeg" alt="南波">
 在心斋桥遇到了一场轻微交通事故。日本警察还是挺敬业的，绿灯时上前用尺子测量。
-![交通事故](/assets/大阪/交通事故.jpeg)
+<img class="img-fluid" src="/assets/交通事故.jpeg" alt="交通事故">
 也去了环球影城，坐了哈利波特，飞天翼龙。
-![环球影城](/assets/大阪/环球影城.jpeg)
-![任天堂](/assets/大阪/任天堂.jpeg)
+<img class="img-fluid" src="/assets/环球影城.jpeg" alt="环球影城">
+<img class="img-fluid" src="/assets/任天堂.jpeg" alt="任天堂">
