@@ -55,3 +55,4 @@ background: '/assets/东京/东迪2.jpeg'
 
 <img class="img-fluid" src="/assets/曼谷/马杀鸡.jpeg" alt="马杀鸡">
 
+## 普吉
