@@ -6,7 +6,7 @@ categories: [travel]
 author: "Hilalum"
 tags: [travel]
 summary: "这篇文章回顾了我和伴侣的西安出发的新婚旅行，涵盖了在旅途中的许多见闻。"
-background: '/assets/东京/东迪2.jpeg'
+background: '/assets/普吉/蛋岛.jpeg'
 ---
 
 ### 这是我们新婚旅行的第三部分。我们从西安出发，共旅行了三个国家和地区：日本，香港，泰国。历经了二十多天。我会详细回顾所见所闻，和准备过程，希望对你有多帮助。
