@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Honeymoon part 3-香港/曼谷/普吉/南宁"
+title: "Honeymoon part 3 - 香港/曼谷/普吉/南宁"
 date: 2024-11-18 13:13
 categories: [travel]
 author: "Hilalum"
