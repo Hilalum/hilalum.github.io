@@ -7,6 +7,8 @@ baseurl: ""
 url: "https://hilalum.github.io"
 destination: ./_site
 encoding: UTF-8
+paginate: 5 # 每页显示的博文数量
+paginate_path: "/posts/page:num" # 分页路径
 collections:
   posts:
     output: true
