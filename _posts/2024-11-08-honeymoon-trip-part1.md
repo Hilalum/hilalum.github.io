@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Honeymoon part 1-西安/大阪/奈良/京都"
+title: "Honeymoon part 1 - 西安/大阪/奈良/京都"
 date: 2024-11-08 13:22
 categories: [travel]
 author: "Hilalum"
