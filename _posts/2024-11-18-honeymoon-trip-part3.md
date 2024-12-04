@@ -32,7 +32,7 @@ background: '/assets/普吉/蛋岛.jpeg'
 <img class="img-fluid" src="/assets/香港/sir.jpeg" alt="sir">
 
 国庆晚上港岛政府放了七万发烟花庆祝。
-<img class="img-fluid" src="/assets/香港/烟花.jpeg" alt="烟花">
+<img class="img-fluid" src="/assets/香港/烟花.png" alt="烟花">
 
 香港物价也比日本贵多了，精致的一碗面，西安20的话，日本差不多卖50，香港卖100.但是日本的口味咸一些，香港的清淡一些。我们在商场里不小心误入一家粤菜，点了三个菜，花了一千二🤣 这个价在日本快要够米其林了。
 <img class="img-fluid" src="/assets/香港/贵.jpeg" alt="粤菜">
