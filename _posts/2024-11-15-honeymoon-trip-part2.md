@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Honeymoon part 2-河口湖/镰仓/东京"
+title: "Honeymoon part 2 - 河口湖/镰仓/东京"
 date: 2024-11-15 14:00
 categories: [travel]
 author: "Hilalum"
