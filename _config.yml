@@ -9,6 +9,7 @@ destination: ./_site
 encoding: UTF-8
 paginate: 5 # 每页显示的博文数量
 paginate_path: "/posts/page:num" # 分页路径
+google_analytics: G-QBK899EFL5
 collections:
   posts:
     output: true
