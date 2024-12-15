@@ -33,7 +33,9 @@ layout: default
       <div class="col-lg-8 col-md-10 mx-auto">
 
         {{ content }}
+        <div class="comment">
         <hr>
+        </div>
 
         <div class="clearfix">
 
@@ -51,3 +53,16 @@ layout: default
       </div>
     </div>
   </div>
+  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+  <script>
+  var gitment = new Gitment({
+    owner: 'Hilalum',
+    repo: 'Comment',
+    oauth: {
+      client_id: 'Ov23lid5k0k32ickY3Wi',
+      client_secret: '3eaa21e6f2c1760d366fcbdbaa1feffd069cf914',
+    },
+  })
+  document.getElementsByClassName("comment")[0].appendChild(gitment.render())
+  </script>
