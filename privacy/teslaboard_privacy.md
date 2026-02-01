@@ -50,4 +50,4 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 If you have any questions about this Privacy Policy, please contact us at:
 
-*   **Email:** support@teslaboard.app
+*   **Email:** dcyap0@icloud.com
