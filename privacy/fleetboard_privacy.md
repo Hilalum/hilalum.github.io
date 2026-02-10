@@ -1,23 +1,23 @@
 ---
 layout: page
-title: Privacy Policy for TeslaBoard
-permalink: /privacy/teslaboard-privacy
+title: Privacy Policy for Fleet
+permalink: /privacy/fleetboard-privacy
 ---
 
-# Privacy Policy for TeslaBoard
+# Privacy Policy for Fleet Board
 
 **Last updated: February 1, 2026**
 
 ## Introduction
 
-At **TeslaBoard** ("we," "our," or "us"), we prioritize the privacy and security of your personal information. This Privacy Policy explains how our application collects, uses, and protects your data when you use our Apple TV application.
+At **Fleet Board** ("we," "our," or "us"), we prioritize the privacy and security of your personal information. This Privacy Policy explains how our application collects, uses, and protects your data when you use our Apple TV application.
 
-By using TeslaBoard, you agree to the collection and use of information in accordance with this policy.
+By using Fleet Board, you agree to the collection and use of information in accordance with this policy.
 
 ## Information We Collect
 
 ### Tesla Account Information
-To function, TeslaBoard requires access to your Tesla account. We collect:
+To function, Fleet Board requires access to your Tesla account. We collect:
 *   **Authentication Tokens:** Specifically, the OAuth Access Token and Refresh Token provided by you or generated via the Tesla login process.
 *   **Vehicle Data:** Basic vehicle information (e.g., VIN, model, name) and real-time status data (e.g., battery level, location, charging status, climate settings) fetched directly from Tesla's servers.
 
@@ -33,7 +33,7 @@ We access your vehicle's location data to display its position on the map interf
 
 **We take your security seriously.**
 
-*   **No Intermediate Servers:** TeslaBoard communicates **directly** with Tesla's official servers. Your data does **not** pass through any third-party servers owned or operated by us.
+*   **No Intermediate Servers:** Fleet Board communicates **directly** with Tesla's official servers. Your data does **not** pass through any third-party servers owned or operated by us.
 *   **Secure Storage:** Your sensitive Authentication Tokens (Refresh Token and Access Token) are encrypted and stored securely in the **Apple tvOS Keychain**. This is the standard, secure storage mechanism provided by Apple.
 *   **Data Retention:** We do not retain your vehicle history or personal data on external servers. All temporary data cached for display is stored locally on your device.
 
