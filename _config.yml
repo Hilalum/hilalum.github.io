@@ -17,7 +17,7 @@ collections:
     permalink: /:year/:month/:day/:title/
 comments:
   provider: utterances
-  repo: Hilalum/Comment
+  repo: Hilalum/hilalum.github.io
   issue_term: pathname
   label: comment
   theme: github-light
