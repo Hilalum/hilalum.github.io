@@ -15,3 +15,9 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:title/
+comments:
+  provider: utterances
+  repo: Hilalum/Comment
+  issue_term: pathname
+  label: comment
+  theme: github-light
