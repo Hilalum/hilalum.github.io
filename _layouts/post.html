@@ -20,7 +20,10 @@ layout: default
             <span class="meta">Posted by
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
               on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
-              content=page.content %}
+              content=page.content %}{% if site.page_views.provider == "busuanzi" %} &middot;
+              <span id="busuanzi_container_page_pv" style="display: none;">
+                阅读量 <span id="busuanzi_value_page_pv"></span>
+              </span>{% endif %}
             </span>
           </div>
         </div>
