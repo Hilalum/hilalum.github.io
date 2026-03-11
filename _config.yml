@@ -21,5 +21,3 @@ comments:
   issue_term: pathname
   label: comment
   theme: github-light
-page_views:
-  provider: busuanzi
