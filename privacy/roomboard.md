@@ -4,11 +4,11 @@ title: Privacy Policy for RoomBoard
 permalink: /privacy/roomboard/
 ---
 
-**Last Updated: December 22, 2025**
+**Last Updated: March 24, 2026**
 
 ## Introduction
 
-Thank you for using **RoomBoard** ("the App"). This application is a client designed specifically for Apple TV, allowing users to conveniently access and control their Home Assistant services.
+Thank you for using **RoomBoard** ("the App"). This application is a client for Apple TV, Android TV, and Android phones, allowing users to conveniently access and control their Home Assistant services.
 
 We value your privacy. This policy explains how we handle your information.
 
@@ -17,9 +17,9 @@ We value your privacy. This policy explains how we handle your information.
 **We explicitly state: This App does not collect, store, or share any of your personal information with any third parties.**
 
 1.  **Data Ownership**: Your home data belongs entirely to you. The App serves solely as a tool for display and control and does not perform any data mining.
-2.  **Direct Connection**: The App communicates directly with the Home Assistant instance that you host or configure yourself. All network requests (such as retrieving device status or sending control commands) occur directly between your Apple TV device and your Home Assistant server.
+2.  **Direct Connection**: The App communicates directly with the Home Assistant instance that you host or configure yourself. All network requests (such as retrieving device status or sending control commands) occur directly between your device and your Home Assistant server, including Apple TV, Android TV, and Android phones.
 3.  **No Backend Services**: The App does not have a backend server maintained by the developer. We cannot access your home data, login credentials, or usage habits.
-4.  **Local Storage**: Your configuration information (such as server address, access tokens, etc.) is stored only in the secure storage area (e.g., Keychain) of your local Apple TV device, solely for the purpose of connecting the App to your Home Assistant instance.
+4.  **Local Storage**: Your configuration information (such as server address, access tokens, etc.) is stored only in the secure storage area of your local device, solely for the purpose of connecting the App to your Home Assistant instance. Depending on the platform, this may use system-provided secure storage mechanisms such as Apple Keychain or encrypted storage on Android.
 
 ## Third-Party Services
 
