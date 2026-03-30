@@ -1,50 +1,50 @@
 ---
 layout: page
-title: Privacy Policy for Fleet
+title: Privacy Policy for Fleet Board
 permalink: /privacy/fleetboard-privacy
 ---
 
 # Privacy Policy for Fleet Board
 
-**Last updated: February 1, 2026**
+**Last updated: March 30, 2026**
 
 ## Introduction
 
-At **Fleet Board** ("we," "our," or "us"), we prioritize the privacy and security of your personal information. This Privacy Policy explains how our application collects, uses, and protects your data when you use our Apple TV application.
+Fleet Board is a third-party Apple TV app for vehicle owners. This Privacy Policy explains what data the app accesses, how that data is used, and how it is stored when you use the app.
 
-By using Fleet Board, you agree to the collection and use of information in accordance with this policy.
+Fleet Board is not affiliated with or endorsed by Tesla, Inc.
 
-## Information We Collect
+## Information the App Accesses
 
 ### Tesla Account Information
-To function, Fleet Board requires access to your Tesla account. We collect:
-*   **Authentication Tokens:** Specifically, the OAuth Access Token and Refresh Token provided by you or generated via the Tesla login process.
-*   **Vehicle Data:** Basic vehicle information (e.g., VIN, model, name) and real-time status data (e.g., battery level, location, charging status, climate settings) fetched directly from Tesla's servers.
+To work with your vehicle account, the app accesses:
+*   **Authentication Tokens:** OAuth access and refresh tokens used to authenticate requests to the official Tesla vehicle API.
+*   **Vehicle Data:** Vehicle details and live status data such as model, battery level, range, charging state, climate state, and location.
 
 ### Location Data
-We access your vehicle's location data to display its position on the map interface within the app. This data is fetched directly from Tesla and displayed locally on your device.
+The app accesses vehicle location data only to display your vehicle on the map within the app.
 
 ## How We Use Your Information
 
-*   **To Provide Service:** We use your tokens to authenticate requests to the official Tesla API. This allows the app to display your vehicle's status on your TV.
-*   **Local Processing:** All data fetching and processing happens locally on your Apple TV.
+*   **Vehicle Access:** Tokens are used only to authenticate requests to the official Tesla vehicle API.
+*   **Feature Delivery:** Vehicle data is used to display status, charging, climate, range, and map information, and to send commands you initiate.
+*   **Local Processing:** Data fetching, display, and temporary caching happen locally on your Apple TV.
 
 ## Data Storage and Security
 
-**We take your security seriously.**
-
-*   **No Intermediate Servers:** Fleet Board communicates **directly** with Tesla's official servers. Your data does **not** pass through any third-party servers owned or operated by us.
-*   **Secure Storage:** Your sensitive Authentication Tokens (Refresh Token and Access Token) are encrypted and stored securely in the **Apple tvOS Keychain**. This is the standard, secure storage mechanism provided by Apple.
-*   **Data Retention:** We do not retain your vehicle history or personal data on external servers. All temporary data cached for display is stored locally on your device.
+*   **Direct Connection:** Fleet Board communicates directly with Tesla's official servers. We do not route your vehicle data through servers that we own or operate.
+*   **Secure Local Storage:** Authentication tokens are stored locally in the Apple tvOS Keychain.
+*   **No Developer Data Collection:** We do not collect, store, or sell your vehicle data or account data on our own servers.
+*   **Local Cache:** Temporary data used to render the interface is stored locally on your device.
 
 ## Third-Party Services
 
-*   **Tesla API:** The app relies on the third-party API provided by Tesla Inc. Use of your Tesla account is subject to Tesla's own Privacy Policy and Terms of Service.
-*   **Apple:** As an iOS/tvOS application, some anonymized analytics (e.g., crash reports) may be collected by Apple if you have opted into sharing analytics with developers.
+*   **Tesla API:** The app relies on the official Tesla vehicle API. Your use of Tesla services remains subject to Tesla's own terms and privacy policy.
+*   **Apple:** If you enable Apple analytics or crash sharing on your device, Apple may process diagnostic data under Apple's policies.
 
 ## Changes to This Privacy Policy
 
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.
+We may update this Privacy Policy from time to time by publishing the revised version on this page.
 
 ## Contact Us
 
