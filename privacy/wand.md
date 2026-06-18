@@ -6,7 +6,7 @@ permalink: /privacy/wand/
 
 # Privacy Policy for Wand (如意)
 
-**Last updated: June 15, 2026**
+**Last updated: June 17, 2026**
 
 ## Introduction
 
@@ -29,6 +29,10 @@ Wand communicates only with the home systems you connect to: your own Home Assis
 ## Data Collection
 
 We do not collect, store, transmit, or sell any of your data. Position fingerprints, learned spots, device lists, and credentials all live on your device. If you enable Apple's analytics or crash sharing on your device, Apple may process diagnostic data under Apple's own policies.
+
+## App Store Privacy Details
+
+For App Store privacy purposes, Wand does not track you across apps or websites and does not collect data that is linked to you. The app may access HomeKit, local network, Wi-Fi, motion, orientation, and Home Assistant connection data only to provide its remote-control features. That data is processed on your device or sent only to the home system you choose to connect.
 
 ## Data Storage and Deletion
 
@@ -56,7 +60,7 @@ If you have any questions about this Privacy Policy, please contact us at:
 
 # 如意 (Wand) 隐私政策
 
-**最后更新：2026 年 6 月 15 日**
+**最后更新：2026 年 6 月 17 日**
 
 ## 简介
 
@@ -79,6 +83,10 @@ If you have any questions about this Privacy Policy, please contact us at:
 ## 数据收集
 
 我们不收集、不存储、不传输、不出售你的任何数据。位置指纹、已学习的位置、设备列表和凭据都只存在你的设备上。若你在设备上开启了 Apple 的分析或崩溃共享,Apple 可能依据其自身政策处理诊断数据。
+
+## App Store 隐私说明
+
+用于 App Store 隐私信息时,如意 不会跨 App 或网站跟踪你,也不会收集与你关联的数据。应用可能访问 HomeKit、局域网、Wi-Fi、运动、朝向以及 Home Assistant 连接数据,但仅用于提供遥控功能。这些数据会在本机处理,或只发送给你选择连接的家居系统。
 
 ## 数据存储与删除
 
