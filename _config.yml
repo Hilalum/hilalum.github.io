@@ -8,6 +8,7 @@ url: "https://hilalum.github.io"
 destination: ./_site
 encoding: UTF-8
 timezone: Asia/Shanghai
+future: true # 允许发布日期在“现在”之后的文章（避免构建时被当作未来文章跳过）
 paginate: 5 # 每页显示的博文数量
 paginate_path: "/posts/page:num" # 分页路径
 google_analytics: G-QBK899EFL5
