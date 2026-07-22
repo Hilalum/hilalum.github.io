@@ -1,10 +1,14 @@
 ---
 layout: post
 title: "把 Codex 装进口袋：为什么我最后留下的是 Happy"
+display_title: "把 Codex 装进口袋"
+subtitle: "为什么我最后留下的是 Happy"
+read_minutes: 8
 date: 2026-03-10 22:20:00 +0800
 categories: [tech]
 author: "Hilalum"
 tags: [tech, ai, codex]
+design_tags: [Codex, CLI]
 summary: "一篇关于 Happy 与 Codex 协作体验的实战总结：为什么我没有继续把 OpenClaw 当成主力，以及 Happy 真正强在哪里。"
 ---
 

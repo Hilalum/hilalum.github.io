@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "两个「江流儿」：唐僧、摩西与东西方宗教的共同密码"
+display_title: "两个「江流儿」"
+subtitle: "唐僧、摩西与东西方宗教的共同密码"
+read_minutes: 12
 date: 2026-07-12 14:00:00 +0800
 categories: [culture]
 author: "Hilalum"

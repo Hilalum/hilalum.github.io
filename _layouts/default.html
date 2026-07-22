@@ -4,7 +4,7 @@
 
 {% include head.html %}
 
-<body>
+<body class="{% if page.body_class %}{{ page.body_class }}{% endif %}">
 
   {% include navbar.html %}
 
@@ -13,6 +13,18 @@
   {% include footer.html %}
 
   {% include scripts.html %}
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.site-nav__toggle');
+      var links = document.querySelector('.site-nav__links');
+      if (!toggle || !links) return;
+      toggle.addEventListener('click', function () {
+        var open = links.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', String(open));
+      });
+    }());
+  </script>
 
   {% include google-analytics.html %}
 

@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<main>
+  <header class="section-hero page-shell">
+    <div class="eyebrow">Section · {{ page.section_en }}</div>
+    <div class="section-hero__row">
+      <h1>{{ page.section_title }}</h1>
+      <p>{{ page.section_description }}</p>
+    </div>
+  </header>
+
+  {% assign section_posts = site.categories[page.category] %}
+  {% if page.section_kind == 'travel' %}
+  <section class="travel-grid page-shell">
+    {% for post in section_posts %}
+    <a class="travel-card" href="{{ post.url | relative_url }}">
+      <div class="travel-card__image"><img src="{{ post.design_image | default: post.background | relative_url }}" alt="{{ post.display_title | default: post.title }}"></div>
+      <div class="post-kicker">游记 · Travelogue &nbsp;·&nbsp; {{ post.date | date: '%Y.%m.%d' }}</div>
+      <h2>{{ post.display_title | default: post.title }}</h2>
+      {% if post.subtitle %}<p>{{ post.subtitle }}</p>{% endif %}
+    </a>
+    {% endfor %}
+  </section>
+  {% elsif page.section_kind == 'tech' %}
+  <section class="tech-list page-shell">
+    {% for post in section_posts %}
+    {% assign post_chars = post.content | size %}
+    {% if post.read_minutes %}{% assign read_minutes = post.read_minutes %}{% else %}{% assign read_minutes = post_chars | divided_by: 270 | plus: 1 %}{% endif %}
+    <a class="tech-row" href="{{ post.url | relative_url }}">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y.%m.%d' }}</time>
+      <div><h2>{{ post.display_title | default: post.title }}</h2>{% if post.subtitle %}<p>{{ post.subtitle }}</p>{% endif %}<div class="tag-list">{% assign visible_tags = post.design_tags | default: post.tags %}{% for tag in visible_tags limit: 3 %}<span>{{ tag }}</span>{% endfor %}</div></div>
+      <span class="tech-row__read">{{ read_minutes }} 分钟<br><b>→</b></span>
+    </a>
+    {% endfor %}
+  </section>
+  {% else %}
+  <section class="notes-list page-shell">
+    {% for post in section_posts %}
+    {% assign post_chars = post.content | size %}
+    {% if post.read_minutes %}{% assign read_minutes = post.read_minutes %}{% else %}{% assign read_minutes = post_chars | divided_by: 270 | plus: 1 %}{% endif %}
+    <a class="note-row" href="{{ post.url | relative_url }}">
+      <span class="note-row__index">{{ forloop.index | prepend: '0' }}</span>
+      <div><div class="post-kicker">随笔 · Essay &nbsp;·&nbsp; {{ post.date | date: '%Y.%m.%d' }} &nbsp;·&nbsp; {{ read_minutes }} 分钟</div><h2>{{ post.display_title | default: post.title }}</h2>{% if post.subtitle %}<h3>{{ post.subtitle }}</h3>{% endif %}<p>{{ post.summary | default: post.excerpt | strip_html }}</p><span class="read-more">阅读全文 →</span></div>
+    </a>
+    {% endfor %}
+    <div class="notes-list__more">更多随笔正在路上 · More notes on the way</div>
+  </section>
+  {% endif %}
+
+  {{ content }}
+</main>

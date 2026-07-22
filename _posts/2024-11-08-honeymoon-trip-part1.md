@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "Honeymoon part 1 - 西安/大阪/奈良/京都"
+display_title: "蜜月旅行 · 上"
+subtitle: "西安 · 大阪 · 奈良 · 京都"
+design_image: '/assets/design/osaka.jpg'
+read_minutes: 11
 date: 2024-11-08 13:22
 categories: [travel]
 author: "Hilalum"

@@ -1,12 +1,29 @@
 ---
-layout: page
-title: About Me
-description: This is what I do.
-background: '/img/bg-about.jpg'
+layout: default
+title: 关于我
+permalink: /about/
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quisquam ut perspiciatis, repudiandae nulla animi iste vel, praesentium repellendus molestias aliquid consequatur, earum rem qui error voluptates eius enim consequuntur!</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex alias, earum consectetur quia natus ducimus voluptate explicabo, hic porro reprehenderit, quasi? Tenetur ipsum distinctio laboriosam perspiciatis officiis dolore, architecto id.</p>
-
-<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam inventore aspernatur repellendus incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio! Explicabo quaerat unde voluptatem! Itaque, eum!</p>
+<main>
+  <header class="section-hero section-hero--about page-shell">
+    <div class="eyebrow">Section · About</div>
+    <div class="section-hero__row"><h1>关于我</h1></div>
+  </header>
+  <section class="about-grid page-shell">
+    <figure class="about-grid__figure">
+      <img src="{{ '/assets/design/about.jpg' | relative_url }}" alt="地图、相机和旅行手记">
+      <figcaption>地图、相机与一本 Field Notes</figcaption>
+    </figure>
+    <div class="about-grid__copy">
+      <p class="about-grid__lead">我是 Hilalum。白天写代码，夜里写字；在旅途中收集光线，也喜欢把一个技术问题拆到最小。</p>
+      <p>这个博客是我给自己留的一块自留地——把思考、旅途和代码放在同一个屋檐下。这里不追热点，更新很随缘，写的都是我真的想留下来的东西。</p>
+      <p>如果这些文字里有一句让你会心一笑，或者省下你半小时踩坑的时间，那它就没白写。</p>
+      <div class="about-contact">
+        <div class="eyebrow">联系 · Elsewhere</div>
+        <a href="mailto:{{ site.email | encode_email }}"><span>Email</span><small>{{ site.email }}</small></a>
+        <a href="https://github.com/Hilalum" target="_blank" rel="noopener"><span>GitHub</span><small>@Hilalum</small></a>
+        <div><span>坐标</span><small>中国 · 西安</small></div>
+      </div>
+    </div>
+  </section>
+</main>

@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "Honeymoon part 2 - 河口湖/镰仓/东京"
+display_title: "蜜月旅行 · 中"
+subtitle: "河口湖 · 镰仓 · 东京"
+design_image: '/assets/design/tokyo.jpg'
+read_minutes: 10
 date: 2024-11-15 14:00
 categories: [travel]
 author: "Hilalum"

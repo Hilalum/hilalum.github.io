@@ -1,34 +1,10 @@
 ---
-layout: page
-title: Tech
+layout: section
+title: 技术
 category: tech
+section_en: Tech
+section_title: 技术
+section_description: 折腾、踩坑与偶尔的顿悟——大多是写给未来会忘记的自己。
+section_kind: tech
 permalink: /category/tech
-background: '/img/bg-post.jpg'
 ---
-
-{% assign tech_posts = site.categories.tech %}
-
-{% for post in tech_posts %}
-
-<article class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <h2 class="post-title">{{ post.title }}</h2>
-    {% if post.subtitle %}
-    <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-    {% else %}
-    <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-    {% endif %}
-  </a>
-  <p class="post-meta">Posted by
-    {% if post.author %}
-    {{ post.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
-    on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
-  </p>
-</article>
-
-<hr>
-
-{% endfor %}

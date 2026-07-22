@@ -1,10 +1,14 @@
 ---
 layout: post
 title: "本地部署大模型，手机飞书接入家里的五个 agent"
+display_title: "本地部署大模型"
+subtitle: "手机飞书接入家里的五个 Agent"
+read_minutes: 9
 date: 2026-04-10 10:00:00 +0800
 categories: [tech]
 author: "Hilalum"
 tags: [tech, ai, omlx, ccconnect, feishu, m1pro]
+design_tags: [LLM, MLX, 飞书]
 summary: "从闲鱼 4000 块的无头 M1 Pro 开始，我把家里的 Mac 变成了一台 7x24 小时在线的多智能体中心，并将其通过 Feishu 接入手机。"
 ---
 

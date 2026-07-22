@@ -2,62 +2,44 @@
 layout: default
 ---
 
-<!-- Page Header -->
-{% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-  {% else %}
-  <header class="masthead">
-    {% endif %}
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-heading">
-            <h1>{{ page.title }}</h1>
-            {% if page.subtitle %}
-            <h2 class="subheading">{{ page.subtitle }}</h2>
-            {% endif %}
-            <span class="meta">Posted by
-              <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
-              content=page.content %}
-            </span>
-          </div>
-        </div>
+{% assign post_chars = page.content | size %}
+{% if page.read_minutes %}{% assign read_minutes = page.read_minutes %}{% else %}{% assign read_minutes = post_chars | divided_by: 270 | plus: 1 %}{% endif %}
+{% if page.categories contains 'culture' %}{% assign section_url = '/posts' %}{% assign section_name = '思考' %}{% assign kicker = '随笔 · Essay' %}
+{% elsif page.categories contains 'travel' %}{% assign section_url = '/category/travel' %}{% assign section_name = '旅行' %}{% assign kicker = '游记 · Travelogue' %}
+{% else %}{% assign section_url = '/category/tech' %}{% assign section_name = '技术' %}{% assign kicker = '技术 · Engineering' %}{% endif %}
+
+<main>
+  <article class="article">
+    <div class="article__back"><a href="{{ section_url | relative_url }}">← 返回{{ section_name }}</a></div>
+    <header class="article__header">
+      <div class="post-kicker">{{ kicker }} &nbsp;·&nbsp; {{ page.date | date: '%Y.%m.%d' }} &nbsp;·&nbsp; {{ read_minutes }} 分钟</div>
+      <h1>{{ page.display_title | default: page.title }}</h1>
+      {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+    </header>
+    {% if page.design_image %}<figure class="article__hero"><img src="{{ page.design_image | relative_url }}" alt="{{ page.display_title | default: page.title }}"></figure>{% endif %}
+    <div class="article__content">
+      {{ content }}
+
+      {% if site.comments.provider == "utterances" %}
+      <div class="article__comments">
+        <script src="https://utteranc.es/client.js" repo="{{ site.comments.repo }}" issue-term="{{ site.comments.issue_term }}" label="{{ site.comments.label }}" theme="{{ site.comments.theme }}" crossorigin="anonymous" async></script>
+      </div>
+      {% endif %}
+    </div>
+  </article>
+
+  <section class="related-posts">
+    <div class="related-posts__inner page-shell">
+      <div class="eyebrow">同板块的其它文章 · More in this section</div>
+      <div class="related-posts__grid">
+        {% assign related_count = 0 %}
+        {% for post in site.posts %}
+          {% if post.url != page.url and post.categories[0] == page.categories[0] and related_count < 3 %}
+          <a href="{{ post.url | relative_url }}"><time>{{ post.date | date: '%Y.%m.%d' }}</time><h2>{{ post.display_title | default: post.title }}</h2>{% if post.subtitle %}<p>{{ post.subtitle }}</p>{% endif %}</a>
+          {% assign related_count = related_count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
-  </header>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-
-        {{ content }}
-        <hr>
-        {% if site.comments.provider == "utterances" %}
-        <script src="https://utteranc.es/client.js"
-          repo="{{ site.comments.repo }}"
-          issue-term="{{ site.comments.issue_term }}"
-          label="{{ site.comments.label }}"
-          theme="{{ site.comments.theme }}"
-          crossorigin="anonymous"
-          async>
-        </script>
-        {% endif %}
-
-        <div class="clearfix">
-
-          {% if page.previous.url %}
-          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
-              Post</span></a>
-          {% endif %}
-          {% if page.next.url %}
-          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
-              Post</span> &rarr;</a>
-          {% endif %}
-
-        </div>
-
-      </div>
-    </div>
-  </div>
+  </section>
+</main>

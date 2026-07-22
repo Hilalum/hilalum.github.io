@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "Honeymoon part 3 - 香港/曼谷/普吉/南宁"
+display_title: "蜜月旅行 · 下"
+subtitle: "香港 · 曼谷 · 普吉 · 南宁"
+design_image: '/assets/design/thailand.jpg'
+read_minutes: 10
 date: 2024-11-18 13:13
 categories: [travel]
 author: "Hilalum"
