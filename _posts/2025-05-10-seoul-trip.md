@@ -133,12 +133,16 @@ summary: "五一假期从西安飞首尔，三星所在的这座城市韩国人�
 
 ## 仁川
 
-![仁川独栋院子](/assets/seoul-trip/19-incheon-house.jpg)
+![仁川独栋院子](/assets/seoul-trip/19a-incheon-house.jpg)
+
+![仁川独栋院子](/assets/seoul-trip/19b-incheon-house.jpg)
 
 最后一天在仁川附近住宿，独栋院子感觉不错，安静又便利。
 
 ## 回程 · A380
 
-![大韩航空A380](/assets/seoul-trip/20-a380.jpg)
+![大韩航空A380](/assets/seoul-trip/20a-a380.jpg)
+
+![大韩航空A380](/assets/seoul-trip/20b-a380.jpg)
 
 往返都是大韩航空，回程在机场碰见 A380，合个影。
