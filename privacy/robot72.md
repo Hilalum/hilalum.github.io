@@ -6,17 +6,17 @@ permalink: /privacy/robot72/
 
 # Privacy Policy for Robot72
 
-**Last Updated: June 25, 2026**
+**Last Updated: August 4, 2026**
 
 ## Introduction
 
 Thank you for using **Robot72** ("the App"). Robot72 is an iOS application for encoding and decoding SSTV (Slow-Scan Television) signals, allowing users to transmit and receive images via audio.
 
-We value your privacy. All image processing and audio encoding/decoding happen entirely on your device. The only information that leaves your device is the network traffic required by our advertising provider, Google AdMob, to serve the optional rewarded video ads described below.
+We value your privacy. All image processing and audio encoding/decoding happen entirely on your device. Robot72 sends privacy-minimized product interaction events to our analytics service and, only when you choose to watch an optional rewarded video, makes requests to Google AdMob. These network activities are described below.
 
 ## Data Collection and Use
 
-1. **On-device processing**: Robot72 itself does not collect, store, or share your personal information. All SSTV encoding and decoding happens on your device.
+1. **On-device processing**: All SSTV encoding and decoding happens on your device. Photos, decoded images, audio, and history are not uploaded to our analytics service.
 
 2. **Microphone Access**: The App requests access to your device's microphone solely for the purpose of receiving and decoding SSTV audio signals. Audio is processed in real-time on your device and is never recorded, stored, or transmitted to any server.
 
@@ -24,15 +24,15 @@ We value your privacy. All image processing and audio encoding/decoding happen e
 
 4. **Local Storage**: Your decoded images, transmission history, and settings are stored locally on your device.
 
-5. **No Developer Backend**: We do not operate a backend server. We cannot access your images, audio, or history.
+5. **Product analytics**: Robot72 sends privacy-minimized product interaction events to a developer-operated analytics service. These events help us understand whether onboarding, decoding, transmitting, rewarded-ad choices, and the Pro purchase flow work as intended. An event may include the event name, time, app version, build number, platform, locale, a short-lived funnel identifier, and allowlisted context such as the screen, SSTV mode, or result. We do not send names, email addresses, account identifiers, advertising identifiers, persistent device identifiers, photos, audio, decoded content, file names, free-form text, or payment information. Analytics events are not linked to your identity and are not used to track you across apps or websites.
 
 ## Advertising
 
 Robot72 uses **Google AdMob** to display **optional rewarded video ads**. These ads appear only when a free user chooses to watch one in order to temporarily unlock a Pro feature (such as a Pro SSTV mode for a single send). There are no banner ads and no interstitial/pop-up ads.
 
-To deliver these ads, the Google Mobile Ads SDK may collect device and usage information (for example a device identifier, coarse or IP-based location, and ad-interaction data).
+To deliver, measure, secure, and improve these ads, the Google Mobile Ads SDK may collect information such as IP address or IP-derived coarse location, device identifiers, advertising data, product interactions, crash logs, and performance data. Google may process this information for third-party advertising, analytics, fraud prevention, and app functionality, subject to your consent choices and applicable law.
 
-We have configured AdMob to serve **non-personalized ads only**. Robot72 does **not** use Apple's Advertising Identifier (IDFA), does **not** request App Tracking Transparency permission, and does **not** track you across other apps or websites.
+Robot72 requests **non-personalized ads** and does not request App Tracking Transparency permission. Non-personalized ads are not selected using your past behavior, but Google may still use identifiers or local storage for purposes such as frequency capping, aggregated reporting, fraud prevention, and ad delivery. Where required, Google's User Messaging Platform presents consent choices before ad requests are enabled. Robot72 itself does not combine analytics events with third-party data and does not use them to track you across other apps or websites.
 
 For details on how Google handles this data, see [Google's Privacy Policy](https://policies.google.com/privacy) and [How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites).
 
@@ -46,17 +46,18 @@ Robot72 offers a one-time in-app purchase ("Robot72 Pro") to unlock additional f
 ## Third-Party Services
 
 * **Google AdMob**: Serves the optional rewarded video ads described in the Advertising section. See [Google's Privacy Policy](https://policies.google.com/privacy).
+* **Hilalum Analytics**: Receives the privacy-minimized product interaction events described above. It does not receive account, device, photo, audio, or free-form user content.
 * **Apple App Store**: In-app purchases are processed by Apple. See [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 
 ## Data Security
 
 * Your images, audio, and history are processed and stored locally on your device.
 * The App uses Apple's secure storage mechanisms (e.g., Keychain) where appropriate.
-* Aside from the ad requests described in the Advertising section, the App does not transmit your data over the internet.
+* Aside from the analytics events and ad requests described above, the App does not transmit your data over the internet.
 
 ## Children's Privacy
 
-This App is not directed to children and does not knowingly collect personal information from children. Ads served in the App are non-personalized.
+This App is not directed to children and does not knowingly collect personal information from children. Rewarded ads are optional and requested as non-personalized ads.
 
 ## Changes to This Privacy Policy
 
