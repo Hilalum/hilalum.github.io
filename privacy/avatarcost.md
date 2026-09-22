@@ -10,15 +10,15 @@ permalink: /privacy/avatarcost/
 
 ## Introduction
 
-Thank you for using **AvatarCost** ("the App"). AvatarCost is an iOS application that looks up a public Roblox avatar by username, lists the items it is wearing, and estimates what those items would cost today.
+Thank you for using **AvatarCost** ("the App"). AvatarCost is an iOS application that looks up a public avatar by username, lists the items it is wearing, and estimates what those items would cost today.
 
-We value your privacy. AvatarCost has no account system and never asks you to log in to anything. It stores your lookup history on your device only. It does make outbound network requests — to Roblox's public web API in order to perform the lookup you asked for, to our analytics service for privacy-minimized product events, and to Google AdMob only when you choose to watch an optional rewarded video. These are described below.
+We value your privacy. AvatarCost has no account system and never asks you to log in to anything. It stores your lookup history on your device only. It does make outbound network requests — to the source platform's public web API in order to perform the lookup you asked for, to our analytics service for privacy-minimized product events, and to Google AdMob only when you choose to watch an optional rewarded video. These are described below.
 
 ## Data Collection and Use
 
 1. **No account, no login**: The App has no sign-up, no sign-in, and no user account. It never asks for a password or an authentication token for any service.
 
-2. **Usernames you look up**: When you search for an avatar, the username you type is sent to **Roblox's public web API** so it can return that avatar's public profile, worn items, and prices. This is the core function of the App and cannot happen without that request. The username is sent to that platform only. It is **never** sent to our analytics service.
+2. **Usernames you look up**: When you search for an avatar, the username you type is sent to the **source platform's public web API** so it can return that avatar's public profile, worn items, and prices. This is the core function of the App and cannot happen without that request. The username is sent to that platform only. It is **never** sent to our analytics service.
 
 3. **Your own username (optional)**: You may optionally tell the App your own username so that every avatar you check can be compared against yours. This value is stored **only on your device**, is used only to perform the same public lookup described above, and can be changed or removed at any time in Settings. It is never sent to our analytics service.
 
@@ -46,14 +46,14 @@ AvatarCost offers a one-time in-app purchase ("Lifetime Pro") that removes the d
 
 ## Third-Party Services
 
-* **Roblox Corporation (public web API)**: Receives the username you choose to look up, in order to return that avatar's public data. We send nothing else to it and we do not create or use an account with it. See [Roblox's Privacy Policy](https://en.help.roblox.com/hc/en-us/articles/115004630823-Roblox-Privacy-and-Cookie-Policy). AvatarCost is an independent app and is **not** affiliated with, endorsed by, or sponsored by Roblox Corporation.
+* **Source platform (public web API)**: Receives the username you choose to look up, in order to return that avatar's public data. We send nothing else to it and we do not create or use an account with it. See the [source platform's privacy policy](https://en.help.roblox.com/hc/en-us/articles/115004630823-Roblox-Privacy-and-Cookie-Policy). AvatarCost is an independent app and is **not** affiliated with, endorsed by, or sponsored by that platform or its publisher.
 * **Google AdMob**: Serves the optional rewarded video ads described in the Advertising section. See [Google's Privacy Policy](https://policies.google.com/privacy).
 * **Hilalum Analytics**: Receives the privacy-minimized product interaction events described above. It does not receive searched usernames, game identifiers, avatar values, images, or free-form user content.
 * **Apple App Store**: In-app purchases are processed by Apple. See [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 
 ## Public Data Only
 
-AvatarCost reads only data that Roblox already publishes publicly for any visitor, without logging in. It cannot see private inventories, private accounts, messages, friends lists, balances, or purchase history. Prices shown are Roblox's own published prices; items with no published price are listed but deliberately excluded from any total rather than estimated.
+AvatarCost reads only data that the source platform already publishes publicly for any visitor, without logging in. It cannot see private inventories, private accounts, messages, friends lists, balances, or purchase history. Prices shown are the platform's own published prices; items with no published price are listed but deliberately excluded from any total rather than estimated.
 
 ## Data Security
 
